@@ -1,0 +1,23 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: end;
+    background-color: #eef1f5;
+    padding: 10px;
+    width: 880px;
+}
+
+.elemento{
+    background-color: #123B7A;
+    color: white;
+    padding: 18px;
+    margin: 5px;
+    min-width: 55px;
+    text-align: center;
+    text-align: center;
+    font-family: sans-serif;
+    width: calc(33,3% - 10px);
+}
